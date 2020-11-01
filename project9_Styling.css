@@ -1,0 +1,45 @@
+			H1
+			{	color: white;
+				text-align: center;
+				font-family: Edwardian Script;
+				font-size:64;			  
+			}	
+
+			body
+			{	color: black;
+				font-family: Arial;	
+				background: url(Project 9 background.png);
+			}
+			a:Link
+			{	font-size: 30px;
+				color: white;	}
+			a:Visited
+			{	color: white;		}
+			a:Hover
+			{	font-style: italic;
+				font-family: arial;
+				color: green;}
+			h2
+			{	position: fixed;
+				padding: 30px;
+				border: 5px solid white;	
+				width: 760px;
+			}
+			Div
+			{	color: black;
+				position: 0 auto;
+				top: 500px;
+				right: 800px;
+				padding: 30px;
+				width: 760px;
+				background: white;
+			}
+			
+			table
+			{	position: center;
+				color: red;
+				font-size: 30px;
+				font-style: italic;				
+			}
+			
+			

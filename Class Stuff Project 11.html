@@ -1,0 +1,47 @@
+<html><!--Notes-->
+<head>
+<script language="javascript">
+	function sumIt()
+	{
+		var num1, num2, answer;
+		num1 = document.Sumr.fNum.value;
+		num2 = document.Sumr.sNum.value;
+		<!-- Could Be a Calculator for anything, gas mileage, account.... -->
+		answer = parseInt(num1)+parseInt(num2);
+		document.Sumr.Ans.value = answer;
+		
+		<!--array[] myText="First Text","Can Add Descriptions","With A Picture","For the final";-->
+		<!--This would use pic0,pic1, pic2, pic3, pic4 in different cells automagically-->
+		var mycount=0;
+		
+		document.write("<table border=2>");
+		for(var count2=0; count2<num2; count2++)
+		{
+			document.write("<tr>");
+			for(var count=0; count<num1; count++)
+			{
+				document.write("<td> <img src=pic" + mycount + ".jpg> </td>");
+				mycount++;
+			}
+			document.write("</tr>");
+		}
+		
+		document.write("</table>");
+		
+	}
+</script>
+</head>
+	<body>
+	<form name="Sumr">	
+	Enter Your First Number</br>
+	<input type="text" Name="fNum" size="20"></br></br>
+	Enter Your Second Number</br>
+	<input type="text" Name="sNum" size="20"></br></br>
+	Your Answer is</br>
+	<input type="text" Name="Ans" size="20"></br>
+	
+	<input type="Button" Name="B1" value="Addition" onClick="sumIt()"></br>
+	
+	</form>	
+	</body>
+</html>

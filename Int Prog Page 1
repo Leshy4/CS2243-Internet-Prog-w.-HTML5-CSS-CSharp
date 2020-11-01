@@ -1,0 +1,55 @@
+<html>
+<head>
+
+<title>Mr Smiths CSS Site</title>
+<link rel="stylesheet" type="text/css" href="Mystyle1.css" />
+</head>
+
+<body>
+
+   <!-- Begin Wrapper -->
+   <div id="wrapper">
+   
+         <!-- Begin Header -->
+         <div id="header">
+		 
+		       This is the Page 1 Header		 
+			   <div id="logo">
+				</div>
+		 </div>
+		 <!-- End Header -->
+		 
+		 <!-- Begin Naviagtion -->
+         <div id="navigation">
+		 
+		       This is the Navigation
+				<a href="http://www.carlalbert.edu">Link 1</a>
+				<a href="http://smith.carlalbert.edu">Link 2</a>
+				<a href="http://bgann.carlalbert.edu">Link 3</a>
+			   
+		 </div>
+		 <!-- End Naviagtion -->
+		 
+		 <!-- Begin Content -->
+		 <div id="content">
+		    <div id="imagetext">
+			<p> There are some people walking on the sidewalk in front of the dorms.</p>
+			</div>
+			<img src="Front.jpg" width="850" height="350">
+			
+	     </div>
+		 <!-- End Content -->
+		 
+		 <!-- Begin Footer -->
+		 <div id="footer">
+		       
+			  Contact me at: smith@carlalbert.edu		
+			    
+	     </div>
+		 <!-- End Footer -->
+		 
+   </div>
+   <!-- End Wrapper -->
+   
+</body>
+</html>

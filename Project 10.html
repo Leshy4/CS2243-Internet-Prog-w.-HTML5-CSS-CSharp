@@ -1,0 +1,64 @@
+<html>
+<script language = Javascript>
+function green()
+{	document.bgColor="#00ff00";	}
+function blue()
+{	document.bgColor="#0000ff";	}
+function white()
+{	document.bgColor="ffffff";	}
+function cnf()
+{
+var y=confirm("click the ok box");
+
+if (y)
+	{document.bgColor="000000";}
+else
+	{document.bgColor="123456";}
+}
+function allt()
+{
+	document.bgColor="123456";
+	window.alert("this is a test \nthis is only a test \nYOU CAN STILL RUN IF YOU WANT THOUGH");
+}
+function pmpt()
+{
+	var n = prompt("please enter your name")
+	alert(n + "\n\n\n\nThank You For Participating")
+}
+function myTbl()
+{	
+	document.write("<center> Good Job!!! </center>");
+	document.write("<table border=5px> <tr>");
+	document.write("<td>");
+	document.write("this is my table");
+	document.write("</td>");
+	document.write("</tr> </table>");
+}
+
+</script>
+
+	<head>
+		
+	</head>
+	
+	<body>
+	<!--     -->
+	<!-- mousedown=click, mouseout=when mouse leaves object-->
+	<p><font color="red" onmouseover="green()">Background</font></p>
+	<p><font color="green" onmousedown="blue()">Background</font></p>
+	<p><font color="orange" onmouseout="white()">Background</font></p>
+	
+	<form>
+	
+	<center>
+	<input type = button value = "CoNFiRM" onClick="cnf()">
+	<input type = button value = "alert" onClick="allt()">
+	<input type = button value = "Text" onClick="pmpt()">
+	<input type = button value = "Click me" onClick="myTbl()">
+	</center>
+	
+	
+			
+	</body>
+
+</html>

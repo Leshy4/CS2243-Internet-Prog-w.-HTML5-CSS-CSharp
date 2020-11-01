@@ -1,0 +1,27 @@
+			H1
+			{	color: red;
+				text-align: center;
+				font-family: Times New Roman;
+				font-size:32;			  
+			}	
+
+			body
+			{	font-style: italic;
+				font-family: "Edwardian Script";			
+			}
+			a:Link
+			{	color: blue;	}
+			a:Visited
+			{	color: red;		}
+			a:Hover
+			{	font-style: arial;
+				color: cyan;}
+			Div
+			{	position: fixed;
+				top: 100px;
+				right: 200px;
+				padding: 30px;
+				border: 5px solid blue;	
+				width: 760px;
+			}
+			
